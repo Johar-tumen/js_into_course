@@ -1,0 +1,89 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    padding-top: 20px;
+
+}
+.tweet-list {
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;
+    padding-top: 20px;
+}
+.tweet {
+    padding: 10px 25px;
+    border-radius: 15px;
+    box-shadow:0 0 10px rgb(170, 168, 168) ;
+    margin-bottom: 30px;
+}
+
+.author {
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text{
+    min-height: 57px;
+
+}
+
+.date {
+    font-size: 13px;
+
+}
+
+.mark {
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #b5b5b5;
+    cursor: pointer;
+}
+.mark-selected {
+    background-color: #b5b5b5;
+}
+.form-add {
+    max-width: 550px;
+    margin: auto;
+    padding: 10px 25px;
+    border-radius: 15px;
+    box-shadow:0 0 10px rgb(170, 168, 168);
+}
+
+.tweet-input {
+    width: 70%;
+    border: none;
+    border-bottom: 1px solid rgb(136, 136, 136);
+    padding-left: 5px;
+    padding: 5px;
+    outline: none;
+    font-size: 20px;
+}
+.control{
+    margin-bottom: 10px;
+}
+.btn {
+    border: none;
+    background-color: rgb(116, 109, 212);
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+.disabled {
+    border: none;
+    background-color: rgb(177, 177, 182);
+    color: white;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    cursor: auto;
+}

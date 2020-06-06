@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body> 
+    <div>
+        <table class="Таблица">
+            <tr>
+                <th>Введите первое число диапазона</th>
+                <th>
+                    <input type="number" id="low" value="0">
+                </th>
+            </tr>
+            <tr>
+                <th>Введите второе число диапазона</th>
+                <th>
+                    <input type="number" id="high" value="50">
+                </th>
+            </tr>
+            <tr>
+                <th>Введите число</th>
+                <th>
+                    <input type="number" id="lookFor" value="23">
+                </th>                
+            </tr>
+            <tr>
+                <th><button class="btn" id="search_btn">Поиск</button></th>
+            </tr>
+            <tr>
+                <th>Результаты поиска</th>
+                <th id="searh_result"></th>                
+            </tr>
+
+        </table>
+    </div>  
+</body>
+<script src="./script.js"></script>
+</html>
